@@ -17,8 +17,7 @@ class CreateItemsTable extends Migration {
 			$table->increments('id');
                         $table->string('location', 40);
                         $table->string('inventoryno', 5);
-                        $table->string('tag', 10)
-                              ->unique();
+                        $table->string('tag', 10);
                         $table->char('depcode', 2);
                         $table->char('itemcode', 3);
                         $table->string('oldcode', 30);

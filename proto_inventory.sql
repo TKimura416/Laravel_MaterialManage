@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 15, 2014 at 01:30 AM
+-- Generation Time: Oct 15, 2014 at 01:46 AM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -76,7 +76,7 @@ INSERT INTO `migrations` (`migration`, `batch`) VALUES
 -- Indexes for table `items`
 --
 ALTER TABLE `items`
- ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `items_tag_unique` (`tag`);
+ ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
