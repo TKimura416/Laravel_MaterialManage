@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 15, 2014 at 01:04 AM
+-- Generation Time: Oct 15, 2014 at 01:30 AM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `items` (
 `id` int(10) unsigned NOT NULL,
+  `location` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
+  `inventoryno` varchar(5) COLLATE utf8_unicode_ci NOT NULL,
   `tag` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `depcode` char(2) COLLATE utf8_unicode_ci NOT NULL,
   `itemcode` char(3) COLLATE utf8_unicode_ci NOT NULL,
