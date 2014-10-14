@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 14, 2014 at 11:29 AM
+-- Generation Time: Oct 15, 2014 at 01:04 AM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -29,6 +29,21 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `items` (
 `id` int(10) unsigned NOT NULL,
   `tag` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `depcode` char(2) COLLATE utf8_unicode_ci NOT NULL,
+  `itemcode` char(3) COLLATE utf8_unicode_ci NOT NULL,
+  `oldcode` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `newcode` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `brand` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `model` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `serial` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `description` text COLLATE utf8_unicode_ci NOT NULL,
+  `quantity` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `documents` text COLLATE utf8_unicode_ci NOT NULL,
+  `purchased` date NOT NULL,
+  `deliveryrcpt` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `invoicercpt` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `nameunder` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `reference` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
@@ -59,7 +74,7 @@ INSERT INTO `migrations` (`migration`, `batch`) VALUES
 -- Indexes for table `items`
 --
 ALTER TABLE `items`
- ADD PRIMARY KEY (`id`);
+ ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `items_tag_unique` (`tag`);
 
 --
 -- AUTO_INCREMENT for dumped tables
