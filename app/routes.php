@@ -13,11 +13,11 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('items/index');
 });
 
 
-Route::get('my', function()
+Route::get('/items', function()
 {
-	return 'hello world';
+	return View::make('items/index');
 });
