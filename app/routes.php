@@ -11,4 +11,13 @@
 |
 */
 
-Route::resources('item', 'ItemController');
+Route::get('/', function()
+{
+	return View::make('hello');
+});
+
+
+Route::get('my', function()
+{
+	return 'hello world';
+});
