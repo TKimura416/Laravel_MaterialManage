@@ -11,13 +11,5 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('items/index');
-});
-
-
-Route::get('/items', function()
-{
-	return View::make('items/index');
-});
+Route::get('/', 'ItemController@index');
+Route::resource('items', 'ItemController');
