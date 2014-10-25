@@ -51,15 +51,15 @@
         <hr>
 
         <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 hidden-xs">
           <h3>Learn how to make this app</h3>
           <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
           
           <div class="row">
-            <div>
-              <img src="img/thumb.jpg">
+            <div class="col-sm-6 col-md-push-6">
+              <img class="img-responsive" src="img/thumb.jpg">
             </div>
-            <div >
+            <div class="col-sm-6 col-md-pull-6">
               <p>Get access to these courses for only $24 a month!</p>
               <a href="#">Visit Treehouse Now &raquo;</a>
             </div>
