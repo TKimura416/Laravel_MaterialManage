@@ -12,21 +12,21 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <ul>
-          <li><a href="#">Home</a></li>
+      <header class="page-header" >
+        <ul class="nav nav-pills pull-right" >
+          <li class="active" ><a href="#">Home</a></li>
           <li><a href="#">About Ribbit</a></li>
           <li><a href="#">Treehouse</a></li>
         </ul>
         <h3>Ribbit</h3>
       </header>
       
-      <div>
+        <div class="jumbotron">
         <h1>Self-destructing message app</h1>
-        <p>Learn how to build this fun little app by signing up for a Treehouse account today! We'll teach you how to build both apps from scratch!</p>
-        <p>
-          <a href="#">Download the app</a>
-          <a href="#" >Text me the link</a>
+        <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today! We'll teach you how to build both apps from scratch!</p>
+        <p class="btn-group">
+          <a class="btn btn-success btn-lg" href="#">Download the app</a>
+          <a class="btn btn-default btn-lg" href="#" >Text me the link</a>
         </p> 
       </div>
 
