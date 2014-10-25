@@ -47,6 +47,33 @@
         </div>
       </div>
 
+        
+        <hr>
+
+        <div class="row">
+        <div class="col-sm-6">
+          <h3>Learn how to make this app</h3>
+          <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
+          
+          <div class="row">
+            <div>
+              <img src="img/thumb.jpg">
+            </div>
+            <div >
+              <p>Get access to these courses for only $24 a month!</p>
+              <a href="#">Visit Treehouse Now &raquo;</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-sm-6">
+          <h3>About Treehouse</h3>
+          <p>Treehouse provides an extensive library of step-by-step video courses and training exercises that will give you a wide range of in-demand technology skills that will help you land your next dream job.</p>
+          <a href="#">Sign up for Treehouse &raquo;</a>
+        </div>
+      </div>
+
+        
       <hr>
       <div>
         <p>&copy; 2013 Ribbit - By Treehouse Island, Inc.</p>
