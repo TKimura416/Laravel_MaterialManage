@@ -30,6 +30,24 @@
         </p> 
       </div>
 
+       <div class="row">
+           <div class="col-sm-4">
+          <h2>Delete photo &amp; video based on a timer</h2>
+          <p>Learn how to write the code that downloads and displays messages, photos, and videos that timeout after a few seconds. Then create the code that deletes them from the back-end to make them "self destruct."</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Build an easily managed friends list</h2>
+          <p>Learn what Parse.com offers as a "backend-as-a-service" platform. Explore the user account management APIs provided by Parse.com and write the code to create and save a new user in a Parse.com data store.</p>
+       </div>
+
+        <div class="col-sm-4">
+          <h2>Store &amp; retrieve data using cloud servers</h2>
+          <p>We'll teach you how to upload images, video files, and messages to Parse.com's cloud servers. Then learn how to retrieve the data by setting up custom queries that download and display them in the app.</p>
+        </div>
+      </div>
+
+      <hr>
       <div>
         <p>&copy; 2013 Ribbit - By Treehouse Island, Inc.</p>
       </div>
