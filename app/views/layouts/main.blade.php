@@ -26,7 +26,7 @@
         <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today! We'll teach you how to build both apps from scratch!</p>
         <p class="btn-group">
           <a class="btn btn-success btn-lg" href="#">Download the app</a>
-          <a class="btn btn-default btn-lg" href="#" >Text me the link</a>
+          <a class="btn btn-default btn-lg hidden-xs" href="#" >Text me the link</a>
         </p> 
       </div>
 
